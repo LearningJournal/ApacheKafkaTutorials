@@ -5,6 +5,5 @@ libraryDependencies ++= Seq(
     exclude("javax.jms", "jms")
     exclude("com.sun.jdmk", "jmxtools")
     exclude("com.sun.jmx", "jmxri")
-    exclude("org.slf4j", "slf4j-simple"),
-"mysql" % "mysql-connector-java" % "5.1.40"
+    exclude("org.slf4j", "slf4j-simple")
 )
