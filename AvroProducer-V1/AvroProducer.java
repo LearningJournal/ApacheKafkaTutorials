@@ -8,7 +8,8 @@ public class AvroProducer {
         String msg;
 
         Properties props = new Properties();
-        props.put("bootstrap.servers", "localhost:9092,localhost:9093");        props.put("key.serializer","org.apache.kafka.common.serialization.StringSerializer");
+        props.put("bootstrap.servers", "localhost:9092,localhost:9093");        
+        props.put("key.serializer","org.apache.kafka.common.serialization.StringSerializer");
         props.put("value.serializer", "io.confluent.kafka.serializers.KafkaAvroSerializer");
         props.put("schema.registry.url", "http://localhost:8081");
 
