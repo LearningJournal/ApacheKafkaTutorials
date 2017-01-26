@@ -1,0 +1,11 @@
+{ "type": "record",
+  "name": "ClickRecord",
+  "fields": [
+     {"name": "session_id", "type": "string"},
+     {"name": "browser", "type": ["string", "null"]},
+     {"name": "campaign", "type": ["string", "null"]},
+     {"name": "channel", "type": "string"},
+     {"name": "referrer", "type": ["string", "null"], "default": "None"},
+     {"name": "ip", "type": ["string", "null"]}
+   ]
+}
